@@ -1,18 +1,6 @@
-# Csv - Case para Entrevista
+# Funções elixir
 
-Veja o arquivo `lib/csv.ex` para ler os requerimentos do desafio.
-
-## Instalação
-
-Para instalar o Elixir, siga as instruções em [elixir-lang.org](https://elixir-lang.org/install.html).
-
-Nenhuma biblioteca adicional é necessária.
-
-## Critérios de sucesso
-
-- O teste pode ser executado com `mix test` e deve passar
-- O código deve ser apresentado pelo candidato, que deve saber explicar as decisões tomadas
-
-## Instruções após o teste
-
-Crie um fork deste repositório, suba suas alterações e compartilhe o repositório conosco.
+- A função search_City serve para buscar no mapa cidades com o nome dado pelo usuario e printar na tela
+- A função search_Country tem a mesma função porem ela pode encontrar mais de uma cidade
+- A função size_Population deixa o usuario escolher uma quantidade minima de população e printa as cidades com o numero maior
+- As funções median e mean servem para calcular a media e mediana populacional das cidades
